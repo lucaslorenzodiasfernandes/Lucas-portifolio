@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(21, 20, 27);
+    margin: 0px 10%;
+}
+
+/* Seção do código */
+.code {
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.inicialh {
+    margin: 100px 0px;
+}
+
+.inicialh h1 {
+    padding: 2px 0px;
+    color: white;
+    color: rgb(51, 255, 51);
+}
+
+/* Informações sobre o desenvolvedor */
+.information {
+    margin: 0px 35px;
+}
+
+.information h1 {
+    color: rgb(255, 255, 255);
+}
+
+.information p {
+    color: rgb(29, 88, 35);
+}
+
+/* Estilo da imagem */
+img {
+    width: 40%;
+    margin-left: 30%;
+    position: fixed;
+    margin-top: 20px;
+    transition: margin-top 2s;
+}
+
+img:hover {
+    margin-top: 0px;
+}
+
+/* Estilo da navegação */
+.navBar li a {
+    color: white;
+    text-decoration-line: none;
+    background-color: rgb(30, 28, 39);
+    padding: 20px;
+}
+
+.navBar li a:hover {
+    background-color: cadetblue;
+}
+
+.navBar li {
+    display: inline;
+}
+
+/* Estilo para as informações sobre o desenvolvedor */
+.aboutMe p {
+    color: rgb(139, 78, 50);
+}
